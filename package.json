@@ -1,5 +1,17 @@
 {
+  "name": "sketchware-firebase-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "firebase-admin": "^13.5.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0"
   }
 }
